@@ -7,22 +7,22 @@ class DochiaCli < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-1.0.4/dochia_macos_amd64_1.0.4.tar.gz"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.0.4/dochia-cli_macos_amd64_1.0.4.tar.gz"
         sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       elsif Hardware::CPU.arm?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-1.0.4/dochia_macos_arm64_1.0.4.tar.gz"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.0.4/dochia-cli_macos_arm64_1.0.4.tar.gz"
         sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-1.0.4/dochia_linux_amd64_1.0.4.tar.gz"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.0.4/dochia-cli_linux_amd64_1.0.4.tar.gz"
         sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       elsif Hardware::CPU.arm?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-1.0.4/dochia_linux_arm64_1.0.4.tar.gz"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.0.4/dochia-cli_linux_arm64_1.0.4.tar.gz"
         sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
       end
   else
-    odie "Please use the uberjar version: https://github.com/dochia-dev/dochia-cli/releases/download/dochia-1.0.4/dochia_uberjar_1.0.4.tar.gz"
+    odie "Please use the uberjar version: https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.0.4/dochia-cli_uberjar_1.0.4.tar.gz"
   end
 
   license "Apache-2.0"
