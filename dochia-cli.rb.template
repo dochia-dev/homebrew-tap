@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Dochia < Formula
+class DochiaCli < Formula
   desc "Dochia automatically generates and executes negative and boundary testing so you can focus on creative problem-solving."
   homepage "https://dochia.dev"
 
