@@ -8,7 +8,7 @@ class DochiaCli < Formula
   if OS.mac?
       if Hardware::CPU.intel?
         url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.3.0/dochia-cli_macos_amd64_1.3.0.tar.gz"
-        sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+        sha256 "50fb0cc1c86214429c4b30e9f856326966a5e82fb46966e97be326d708981b7a"
       elsif Hardware::CPU.arm?
         url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-1.3.0/dochia-cli_macos_arm64_1.3.0.tar.gz"
         sha256 "4316adba78a2e3b6e8aa25077e657b1a3cd4735c1996de5f4c89c8c5b4ef52e2"
