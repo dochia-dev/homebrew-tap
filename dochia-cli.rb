@@ -7,22 +7,22 @@ class DochiaCli < Formula
 
   if OS.mac?
       if Hardware::CPU.intel?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.0/dochia-cli_macos_amd64_2.1.0.tar.gz"
-        sha256 "bd534b2c8c9c8cdcb0563cda663be59363340a454a67678631749b6635e4b423"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.1/dochia-cli_macos_amd64_2.1.1.tar.gz"
+        sha256 "dff96dfa0ced85283586533a912e95a3affcd76b736c224d629bb22336d64843"
       elsif Hardware::CPU.arm?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.0/dochia-cli_macos_arm64_2.1.0.tar.gz"
-        sha256 "7b3442ccf992a2a1e14c225c390abe571363cf97dd99a21c8b59c9b71d091625"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.1/dochia-cli_macos_arm64_2.1.1.tar.gz"
+        sha256 "a921530c303a1019e25e8be862715540148b0b19b227f727c13413037af47924"
       end
   elsif OS.linux?
       if Hardware::CPU.intel?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.0/dochia-cli_linux_amd64_2.1.0.tar.gz"
-        sha256 "5166d170a653bf4a7a94b07c609db0ccca14b9b04b7cebe9ab849c3e19a79f83"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.1/dochia-cli_linux_amd64_2.1.1.tar.gz"
+        sha256 "76d4d0ce2bf4d4e62584a99abbfbf68ba135a90121eef9bc53b07a3e6b6b2f73"
       elsif Hardware::CPU.arm?
-        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.0/dochia-cli_linux_arm64_2.1.0.tar.gz"
-        sha256 "d8367d51f9f59eab5bdbe2cb7126a797c69bf01f849aefa3d3cac7a976ebb2c3"
+        url "https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.1/dochia-cli_linux_arm64_2.1.1.tar.gz"
+        sha256 "a63331cc2bf876ed66e0dcb4bcc1bc7ad3821bd2ae8d302ef83ae40c4383fa56"
       end
   else
-    odie "Please use the uberjar version: https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.0/dochia-cli_uberjar_2.1.0.tar.gz"
+    odie "Please use the uberjar version: https://github.com/dochia-dev/dochia-cli/releases/download/dochia-cli-2.1.1/dochia-cli_uberjar_2.1.1.tar.gz"
   end
 
   license "Apache-2.0"
